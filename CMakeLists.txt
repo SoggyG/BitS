@@ -9,3 +9,6 @@ include_directories(include)
 file(GLOB SOURCES "src/*.cpp")
 
 add_executable(torrent_client ${SOURCES}
+        src/bencode.cpp
+        src/bencode.h
+        src/main.cpp)

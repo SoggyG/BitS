@@ -57,7 +57,14 @@ compile_commands.json
 *.log
 *.bak
 *.swp
+# Build directories
+cmake-build-*/
+bin/
 
+# IDE files
+.idea/
+*.suo
+*.user
 # vcpkg
 vcpkg_installed/
 
