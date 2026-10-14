@@ -15,7 +15,7 @@ int main() {
 
         TrackerResponse tr = contact_tracker(tf, peer_id);
 
-        std::cout << "Successfully connected to tracker!\n";
+        std::cout << "Successfully connected to tracker!???\n";
         std::cout << "Refresh Interval: " << tr.interval << " seconds\n";
         std::cout << "Peers Discovered: " << tr.peers.size() << "\n";
 
