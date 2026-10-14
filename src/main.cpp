@@ -2,6 +2,7 @@
 #include "torrent.h"
 #include "tracker.h"
 // Logger feature branch update
+//Yea I have no clue how this works
 int main() {
     try {
         std::string torrent_path = "C:/Users/bogia/Desktop/ubuntu-26.04.1-desktop-amd64.iso.torrent"; // Your test .torrent file
